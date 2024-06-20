@@ -1,0 +1,363 @@
+@media(max-width:1679px) {
+    .container {
+        width: 1440px
+    }
+    #scene {
+        width: 120%
+    }
+    .woo_inner {
+        -ms-align-items: center;
+        align-items: center
+    }
+    .features_content {
+        padding-top: 3rem
+    }
+    .features_img {
+        width: 6rem;
+        margin: 0 auto 2.5rem
+    }
+    .features_text {
+        padding: 2rem 3rem 0
+    }
+}
+
+@media(max-width:1439px) {
+    html {
+        font-size: 14px
+    }
+    h1 {
+        font-size: 5rem
+    }
+    .container {
+        width: 1280px;
+        padding: 0 50px
+    }
+    .nav_btn {
+        padding: 1.3rem 3.4rem
+    }
+    .header_inner {
+        height: calc(100vh - 105px);
+        max-height: 800px;
+        min-height: 500px
+    }
+    .home_item.column {
+        padding: 6.5rem 0 5rem
+    }
+    .slider-wrap {
+        padding: 6.5rem 0 7rem
+    }
+    .swiper-wrapper {
+        margin-top: 3rem;
+        margin-bottom: 0
+    }
+    .woo-wrap {
+        padding: 7rem 0 5rem
+    }
+    .woo_content {
+        width: 33%;
+        padding-bottom: 2.5rem
+    }
+    .woo_text {
+        padding: 3rem 0
+    }
+    .features-wrap {
+        padding: 6.5rem 0 5rem
+    }
+    .features_inner {
+        padding-top: 3rem
+    }
+    .features_text {
+        padding: 1.5rem 2.5rem 0
+    }
+    .footer_subtitle {
+        padding: 1rem 0 3rem
+    }
+}
+
+@media(max-width:1279px) {
+    h1 {
+        font-size: 4.5rem
+    }
+    h2 {
+        font-size: 3.5rem
+    }
+    .column_1-4 {
+        width: 33.3333%
+    }
+    .container {
+        width: 1024px;
+        padding: 0 30px
+    }
+    .header_top {
+        padding: 0 30px
+    }
+    #scene {
+        width: 110%;
+        top: 13%
+    }
+    .home_img {
+        margin-bottom: 2rem
+    }
+    .features_inner {
+        justify-content: center
+    }
+    .features_content {
+        padding-top: 4rem
+    }
+}
+
+@media(max-width:1023px) {
+    html {
+        font-size: 13px
+    }
+    a {
+        font-size: 1rem
+    }
+    h2 {
+        font-size: 3rem
+    }
+    h3 {
+        font-size: 1.4rem;
+        line-height: 1.1em
+    }
+    .container {
+        width: 768px
+    }
+    .header_top {
+        height: 6rem
+    }
+    .logo_wrap {
+        width: 9rem
+    }
+    .nav li {
+        margin-left: 30px
+    }
+    .nav_btn {
+        padding: 1.2rem 3.2rem
+    }
+    .header_content {
+        padding: 0 30px
+    }
+    .header_inner {
+        height: calc(100vh - 6rem);
+        max-height: 600px;
+        min-height: 450px
+    }
+    #scene {
+        width: 130%
+    }
+    .home_img .badge {
+        width: 15%
+    }
+    .woo_content {
+        width: 37%
+    }
+    .woo_text {
+        padding: 2rem 0
+    }
+    .features_content {
+        padding-top: 3rem
+    }
+    .features_img {
+        width: 5rem;
+        margin: 0 auto 2rem
+    }
+    .features_text {
+        font-size: 1rem;
+        line-height: 1.5em;
+        padding: 1.5rem 2rem 0
+    }
+}
+
+@media(max-width:767px) {
+    html {
+        font-size: 12px
+    }
+    h1 {
+        font-size: 4rem
+    }
+    .container {
+        width: 600px
+    }
+    .column_1-4 {
+        width: 50%
+    }
+    .header_top {
+        position: relative;
+        z-index: 300
+    }
+    .header_suptitle {
+        font-size: 1.4rem
+    }
+    .nav {
+        display: none
+    }
+    .nav_btn {
+        display: none
+    }
+    .nav-toggle {
+        display: block
+    }
+    .nav_mobile {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 50;
+        padding: 9rem 0 4rem;
+        transform: translateY(-100%);
+        transition: all .4s linear;
+        background: rgba(255, 255, 255, .95);
+        text-align: center
+    }
+    .nav_mobile.active {
+        transform: translateX(0%)
+    }
+    .nav_mobile .nav_link {
+        display: block;
+        background: 0 0;
+        font-size: 1.3rem;
+        color: #15212c;
+        margin: 0;
+        padding: .5rem 0;
+        position: relative;
+        z-index: 10
+    }
+    .nav_mobile .nav_link:hover {
+        color: #54b9fd
+    }
+    .nav_btn-mob {
+        background: #15212c;
+        color: #fff;
+        font-size: 1.3rem;
+        padding: 1.4rem 3.7rem;
+        border-radius: 5rem;
+        margin-top: 1rem
+    }
+    .nav_btn-mob:hover {
+        background: #fee827;
+        color: #15212c
+    }
+    .header_inner {
+        height: calc(100vh - 6rem)
+    }
+    #scene {
+        top: 10%;
+        width: 150%
+    }
+    .woo_inner {
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    .woo_content {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 3rem
+    }
+    .woo_img {
+        width: 100%
+    }
+    .features_item {
+        padding-top: 110%
+    }
+    .features_text {
+        padding: 1.5rem 3rem 0
+    }
+}
+
+@media(max-width:600px) {
+    .container {
+        width: 480px;
+        padding: 0 15px
+    }
+    .column {
+        padding-right: 15px;
+        padding-bottom: 15px
+    }
+    .columns_wrap {
+        margin-right: -15px
+    }
+    .column_1-2 {
+        width: 100%
+    }
+    .header_top {
+        padding: 0 15px
+    }
+    .header_content {
+        padding: 0 15px
+    }
+    .header_inner {
+        max-height: 600px;
+        min-height: 350px
+    }
+    .home_item.column {
+        padding: 5rem 0 4rem
+    }
+    .home_item:nth-child(odd):not(:last-child) {
+        background: #f4f6fa
+    }
+    .home_item:nth-child(even) {
+        background: #edeef2
+    }
+    .slider-wrap {
+        padding: 5rem 0 5.4rem
+    }
+    .woo-wrap {
+        padding: 5rem 0 3.5rem
+    }
+    .features-wrap {
+        padding: 5rem 0 4rem
+    }
+    .features_item {
+        padding-top: 130%
+    }
+}
+
+@media(max-width:479px) {
+    h1 {
+        font-size: 2.7rem
+    }
+    h2 {
+        font-size: 2.5rem
+    }
+    .container {
+        width: 100%
+    }
+    .column_1-4 {
+        width: 100%
+    }
+    .logo_wrap {
+        width: 7rem
+    }
+    .header_btn {
+        padding: 1.3rem 2.6rem
+    }
+    #scene {
+        top: 15%;
+        width: 250%
+    }
+    .home_img {
+        width: 80%;
+        margin-bottom: 2rem
+    }
+    .slider-wrap {
+        padding: 5rem 15px 5.4rem
+    }
+    .features-wrap .container {
+        width: 260px
+    }
+}
+
+@media(max-height:400px) {
+    .nav_mobile {
+        padding: 9rem 0 3.5rem
+    }
+    .nav_mobile .nav_link {
+        padding: .4rem 0
+    }
+}
